@@ -1,0 +1,28 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "COMP0034 Testing Lecture",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Sarah Sanders",
+      "email": "sarah.sanders@ucl.ac.uk"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src/php/classes"
+    ]
+  },
+  "autoload-dev": {
+    "classmap": [
+      "test/php/classes"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "require": {
+    "ext-json": "*"
+  }
+}
