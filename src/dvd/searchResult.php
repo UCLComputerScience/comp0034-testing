@@ -6,12 +6,12 @@ include('header.php');
 <main role="main" class="container">
     <?php
     if (!isset($_GET['data'])) {
-        echo '<br><p>Sorry, there are no films available containing the term ';
+        echo '<br><p id="search_result">Sorry, there are no films available containing the term ';
         echo $_GET['msg'];
         echo "</p>";
     }
     if (isset($_GET['data'])) {
-        echo "<p>The following films are available: </p>";
+        echo "<p id='search_result'>The following films are available: </p>";
         $json = urldecode($_GET['data']);
         $data = json_decode($json,true);
         foreach ($data as $row) {
