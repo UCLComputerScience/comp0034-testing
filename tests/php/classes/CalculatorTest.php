@@ -22,20 +22,20 @@ class CalculatorTest extends TestCase
 
     public function testAdd()
     {
-        $this->assertEquals($this->calculator->add(6, 2), 7, "When adding 6 and 2 the answer should be 8");
+        $this->assertEquals(7, $this->calculator->add(6, 2), "When adding 6 and 2 the answer should be 8");
     }
 
 
     public function testSubtract()
     {
-        $this->assertEquals($this->calculator->subtract(6, 2), 4);
+        $this->assertEquals(4, $this->calculator->subtract(6, 2));
     }
 
 
 
     public function testDivide()
     {
-        $this->assertEquals($this->calculator->divide(6, 2), 3);
+        $this->assertEquals(3, $this->calculator->divide(6, 2));
 
     }
 
@@ -47,6 +47,6 @@ class CalculatorTest extends TestCase
 
     public function testMultiply()
     {
-        $this->assertEquals($this->calculator->multiply(6, 2), 12);
+        $this->assertEquals(12, $this->calculator->multiply(6, 2));
     }
 }
