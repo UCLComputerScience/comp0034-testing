@@ -59,3 +59,7 @@ fabric.properties
 .idea/php-test-framework.xml
 .idea/php.xml
 .idea/deployment.xml
+/src/php/classes/Email.php
+/src/php/classes/Observer.php
+/src/php/classes/Subject.php
+/tests/php/classes/SubjectTest.php

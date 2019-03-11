@@ -9,7 +9,7 @@ namespace php\classes;
 
 use PHPUnit\Framework\TestCase;
 
-class CalculatorDPTest extends TestCase
+class CalculatorDataProviderTest extends TestCase
 {
     protected $calculator;
 
