@@ -53,3 +53,9 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+.idea/dataSources.xml
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/php-test-framework.xml
+.idea/php.xml
+.idea/deployment.xml
